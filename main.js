@@ -77,14 +77,14 @@ let showWinner = () => {
            
 
             
-            winnerName.innerText = `Player X Win The Game!`;
+            winnerName.innerText = `Player X Won The Game!`;
 
           
             mainPage.style.display = "none";
             winner.style.display = "block";
         } else if (boxes[b[0]].id == "O" && boxes[b[1]].id == "O" && boxes[b[2]].id == "O") {
             
-            winnerName.innerText = `Player O Win The Game!`;
+            winnerName.innerText = `Player O Won The Game!`;
 
            
             mainPage.style.display = "none";
